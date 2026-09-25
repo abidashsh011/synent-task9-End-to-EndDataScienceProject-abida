@@ -2,12 +2,17 @@
 
 **Internship Program:** Synent Technologies Data Science Internship  
 **Author:** Abida Sharif  
-**Dataset Source:** (https://www.kaggle.com/datasets/arshid/iris-flower-dataset)  
+**Dataset Source:** (https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
+**Live Application:** 🚀 https://synent-task9-end-to-enddatascienceproject-abida.streamlit.app/
 
 ---
 
 ## 📌 Problem Statement
 The goal of this project is to build and deploy an end-to-end machine learning pipeline that predicts flower species based on physical dimensions (sepal/petal lengths and widths).
+
+## 🌐 Live Web Application
+The application is deployed and accessible online:
+- **Deployment URL:** https://synent-task9-end-to-enddatascienceproject-abida.streamlit.app/
 
 ## 🛠️ Tech Stack
 - **Language:** Python 3.10+
@@ -24,9 +29,6 @@ The goal of this project is to build and deploy an end-to-end machine learning p
 ## 📊 Results & Key Findings
 - Petal length and petal width are the most informative features for distinguishing between species categories.
 - The deployed Random Forest model delivers accurate real-time classification through a clean user interface.
-
-## 🎥 Video Demonstration
-- **Demo Video Link:** 
 
 ## ⚙️ How to Run Locally
 1. Clone this repository:
