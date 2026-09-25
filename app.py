@@ -1,9 +1,18 @@
 import streamlit as st
 import numpy as np
 import pickle
+from pathlib import Path
+from sklearn.datasets import load_iris
+from sklearn.ensemble import RandomForestClassifier
 
-with open('model.pkl', 'rb') as f:
-    model = pickle.load(f)
+model_path = Path(__file__).resolve().parent / 'model.pkl'
+if model_path.exists():
+    with model_path.open('rb') as f:
+        model = pickle.load(f)
+else:
+    iris = load_iris()
+    model = RandomForestClassifier(random_state=42)
+    model.fit(iris.data, iris.target)
 
 st.title("🌺 Iris Flower Species Predictor")
 
