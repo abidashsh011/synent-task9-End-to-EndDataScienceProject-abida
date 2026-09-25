@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from sklearn.datasets import iris flower file
+from sklearn.datasets import iris_flower_file
 from sklearn.ensemble import RandomForestClassifier
 
 st.set_page_config(page_title="Iris Species Predictor", page_icon="🌺", layout="centered")
